@@ -1,0 +1,14 @@
+.status.not-started {
+  background-color: #6c757d1a;
+  color: #6c757d1a;
+}
+
+.status.in-progress {
+  background-color: #ffc107;
+  color: #faad14;
+}
+
+.status.finished {
+  background-color: #198754;
+  color: #fff;
+}
