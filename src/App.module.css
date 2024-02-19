@@ -1,0 +1,21 @@
+.app {
+  width: 90%;
+  max-width: 98rem;
+  margin: auto;
+}
+
+.add-task {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 0 1rem;
+  border-bottom: 0.1rem solid var(--color-primary);
+}
+
+.add-task button {
+  font-size: 1rem;
+  color: #fff;
+  padding: 0.4rem 1.2rem;
+  border-radius: 0.4rem;
+  background-color: var(--color-primary);
+}

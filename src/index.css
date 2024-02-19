@@ -7,3 +7,24 @@ body {
   background: linear-gradient(to top, #d3cce3, #e9e4f0);
   min-height: 100vh;
 }
+
+p {
+  margin: 0;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.center {
+  text-align: center;
+  margin-inline: auto;
+}
+
+:root {
+  --color-primary: #155e75;
+  --color-secondary: #cbd5e1;
+  --color-danger: tomato;
+}
