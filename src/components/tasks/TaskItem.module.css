@@ -1,0 +1,54 @@
+.task {
+  background-color: var(--color-secondary);
+  border-radius: 0.4rem;
+  padding: 1rem 0.6rem;
+}
+
+.task p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.status {
+  padding: 0.4rem 1rem;
+  border-radius: 0.2rem;
+  font-weight: 500;
+}
+
+.status.NOT_STARTED {
+  background-color: #bbc5cd;
+  color: #474242;
+}
+
+.status.IN_PROGRESS {
+  background-color: #ffc107;
+  color: #8a610e;
+}
+
+.status.FINISHED {
+  background-color: #198754;
+  color: #fff;
+}
+
+.actions {
+  margin-top: 2rem;
+
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.actions button {
+  border-radius: 0.2rem;
+  padding: 0.3rem 0.6rem;
+}
+
+.actions button[type="primary"] {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.actions button[type="danger"] {
+  background-color: var(--color-danger);
+  color: #fff;
+}
