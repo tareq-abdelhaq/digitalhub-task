@@ -10,7 +10,7 @@ import classes from "./App.module.css";
 
 function App() {
   const [tasks, setTasks] = useState(
-    JSON.parse(sessionStorage.getItem("tasks") || [])
+    JSON.parse(sessionStorage.getItem("tasks")) || []
   );
   const [displayTasks, setDisplayTasks] = useState([]);
   const [taskModal, setTaskModal] = useState({ isOpen: false, initData: null });
